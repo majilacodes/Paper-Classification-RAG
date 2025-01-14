@@ -831,7 +831,7 @@ class ConferenceClassifier:
         self.retriever = EnsembleRetriever(self.vector_store)
 
         # Initialize Gemini
-        genai.configure(api_key='AIzaSyDvpOmdzcaLw1NIRtsNu1blC60-MLAUDO8')
+        genai.configure(api_key='')
         self.model = genai.GenerativeModel('gemini-pro')
 
 
